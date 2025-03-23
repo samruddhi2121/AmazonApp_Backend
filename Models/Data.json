@@ -1,0 +1,117 @@
+[
+  {
+    "id": "1",
+    "type":"Mobile",
+    "name": "Apple iPhone 14",
+    "price": 799.99,
+    "brand": "Apple",
+    "rating": 4.5,
+    "reviews": 1200,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWjgxtGkbHf9uS8qfOkF0HuSH0sbF1YGpJqQ&s",
+    "inStock": true
+  },
+  {
+    "id": "2",
+    "name": "Samsung Galaxy S23",
+    "type":"Mobile",
+    "price": 749.99,
+    "brand": "Samsung",
+    "rating": 4.6,
+    "reviews": 1500,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnNFw3GcyyAzUUx8iufSADqovQeIIhkzTNFA&s",
+    "inStock": true
+  },
+  {
+    "id": "3",
+    "type":"headphones",
+    "name": "Sony Headphones",
+    "price": 3999,
+    "brand": "Sony",
+    "rating": 4.9,
+    "reviews": 3500,
+    "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTvMPDoM2TaUWnzFqGunN0cfKm_buzRLvlRH-yUTr4xeaV4KuW6W1EaISEzn3bEUKuA9F0H0TbPt1Ryr2Mk1j9u0HyYz8cxyPg6a4ZLg2RUYGmr4P65jYpMqo-eWtb6IpZq1tApCKY&usqp=CAc",
+    "inStock": false
+  },
+
+  {
+    "id": "4",
+    "name": "Winter deals",
+    "type":"Clothes",
+    "price": 19.99,
+    "brand": "FashionWear",
+    "rating": 4.3,
+    "reviews": 500,
+    "image": "https://m.media-amazon.com/images/I/21rFQtNSQSL.jpg",
+    "inStock": true
+  },
+  {
+    "id": "5",
+    "name": "Women's Saree",
+    "type":"Clothes",
+    "price": 39.99,
+    "brand": "StyleTrend",
+    "rating": 4.6,
+    "reviews": 700,
+    "image": "https://silkfolks.com/cdn/shop/products/KPR-117_3.jpg?v=1671167100",
+    "inStock": true
+  },
+  {
+    "id": "6",
+    "name": "Unisex Hoodie",
+    "type":"Clothes",
+    "price": 29.99,
+    "brand": "UrbanStyle",
+    "rating": 4.7,
+    "reviews": 600,
+    "image": "https://m.media-amazon.com/images/I/61iOoV443JL._SY550_.jpg",
+    "inStock": true
+  },
+
+  {
+    "id": "7",
+    "name": "sports and outdoors",
+    "type":"sports",
+    "price": 89.99,
+    "brand": "",
+    "rating": 4.7,
+    "reviews": 2200,
+    "image": "https://m.media-amazon.com/images/I/21lKyo7hiEL.jpg",
+    "inStock": true
+  },
+  {
+    "id": "8",
+    "name": "Electronics",
+    "type":"Electronics",
+    "price": 599.99,
+    "brand": "",
+    "rating": 4.8,
+    "reviews": 1800,
+    "image": "https://m.media-amazon.com/images/I/21kkdkpAfZL.jpg",
+    "inStock": false
+  },
+
+  {
+    "id": "9",
+    "type":"Beauty",
+    "name": "Beauty",
+    "price": 1000,
+    "brand": "Lackme",
+    "rating": 4.4,
+    "reviews": 3200,
+    "image": "https://m.media-amazon.com/images/I/21mP3BP+hjL.jpg",
+    "inStock": true
+  },
+  {
+    "id": "10",
+    "name": "Pots",
+    "type":"Home",
+    "price": 14.99,
+    "brand": "milton",
+    "rating": 4.9,
+    "reviews": 5000,
+    "image": "https://m.media-amazon.com/images/I/2152nQZbKzL.jpg",
+    "inStock": true
+  }
+]
+
+

@@ -1,0 +1,32 @@
+*****************Verbs in API******************************
+
+(1) Get the data from the API -GET
+(2) Send the data from the API -POST
+(3) We can update the data-PUT
+(4) We can delete the data -delete
+
+
+
+CRUD Operatation
+
+C-Create->POST
+R-read->GET
+U-update->PUT
+D-delete->delete
+
+**************************Status code in API's*************************
+
+
+(1) 100s-informational status codes
+(2) 200s-Succes status codes
+(3) 300s-redirections
+(4) 400s-client side errors
+(5) 500s-server side errors
+
+
+MVC-models     view     controller
+    database  frontend  backend
+
+
+**************************************************************************
+
