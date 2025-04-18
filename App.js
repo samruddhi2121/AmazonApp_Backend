@@ -1,11 +1,15 @@
 //fixing cros manually***********************
 
 const express =require('express');
+require('dotenv').config();
+const mongoose = require('mongoose');
 
 const routes=require('./Routes/index2');
 
 const app=express();
-const port=5402;
+// const port=5402;
+const port=process.env.PORT;
+const mongoURI = process.env.MONGO_URL;
 
 
 // CORS issue will be solved //Manual cors issue fixing
@@ -22,13 +26,33 @@ app.use((req,res,next)=>{
 //  //npm install cors
  app.use('/',routes);
 
-app.listen(port,()=>{
-    console.log(`server is running on ${port}`);
+ 
+    
+// mongoose.connect('mongodb://127.0.0.1:27017/local', {
+    mongoose.connect(mongoURI, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+}).then(success => {
+    console.log("✅ MongoDB Connected Successfully");
+
+    app.listen(port, () => {
+        console.log(`Server is running on ${port}`);
+    });
+
+}).catch(error => {
+    console.log("❌ MongoDB Connection Error: " + error);
 });
+
 
 //run-oncrome localhost:5402
 //http://localhost:5402/getRestaurantsByCity/pune
 //http://localhost:5402/restaurants
 //http://localhost:5402/restaurants/2
 //data flow :: modules->controllers->rotes->app.js
+
+
+
+//https://amazonapp-backend.onrender.com/amazon
+//https://amazonapp-backend.onrender.com/amazon/1
+//https://amazonapp-backend.onrender.com/getDataByType/clothes
 //======================================================
